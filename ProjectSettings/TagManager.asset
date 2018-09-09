@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - bacteria
+  - worm
+  - beatle
+  - rat
+  - bird
+  - cow
+  - human
   layers:
   - Default
   - TransparentFX
