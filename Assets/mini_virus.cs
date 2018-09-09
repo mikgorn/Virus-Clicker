@@ -12,8 +12,16 @@ public class mini_virus : MonoBehaviour {
         euler.z = Random.Range(0, 360);
         transform.eulerAngles = euler;
         Debug.Log(euler.z);
-        x = -1*Mathf.Cos(3.14f);
-        y = Mathf.Sin(3.14f);
+        x = Mathf.Cos(euler.z/180);
+        y = Mathf.Sin(euler.z / 180);
+        if (euler.z > 180)
+        {
+            y *= -1;
+        }
+        if(euler.z>90 & euler.z < 270)
+        {
+            x *= -1;
+        }
     }
 	
 	// Update is called once per frame
@@ -24,6 +32,8 @@ public class mini_virus : MonoBehaviour {
         }
         lifetime -= Time.deltaTime;
 
-        transform.position += new Vector3(x,y,0);
-	}
+        transform.position += (new Vector3(x,y,0))*((float)lifetime*5);
+
+        transform.Rotate(new Vector3(0,0,2));
+    }
 }

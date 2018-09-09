@@ -17,6 +17,10 @@ public class game : MonoBehaviour {
     public GameObject evolve_panel;
     public GameObject main_panel;
 
+    public GameObject virus_mini;
+
+    public ulong click_income = 1;
+
 	// Use this for initialization
 	void Start () {
         virus_click.onClick.AddListener(virus_clicked);
@@ -26,7 +30,9 @@ public class game : MonoBehaviour {
 
     void virus_clicked()
     {
-        units += 1;
+
+        Instantiate(virus_mini);
+        units += click_income;
     }
     void infect_clicked()
     {
