@@ -6,6 +6,7 @@ public class intro2_script : MonoBehaviour {
     public AudioSource audio;
     public AudioClip intro2_sound;
     public AudioClip intro3_sound;
+    bool played = false;
     game game_script;
     // Use this for initialization
     void Start () {
@@ -21,8 +22,9 @@ public class intro2_script : MonoBehaviour {
         temp_color.a = (50f - game_script.units) / 40f;
         this.gameObject.GetComponent<Image>().color = temp_color;
 
-        if (game_script.units == 25)
+        if (game_script.units == 25 & !played)
         {
+            played = true;
             audio.Stop();
             audio.PlayOneShot(intro2_sound);
 

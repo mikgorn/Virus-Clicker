@@ -39,7 +39,7 @@ public class bacteria_upgrade : MonoBehaviour {
         if (game_script.units >= cur_price)
         {
             game_script.units -= cur_price;
-            infect_script.income = infect_script.income * cur_inc;
+            infect_script.income = infect_script.income * (100+cur_inc)/100;
             i++;
             if (i < 5)
             {

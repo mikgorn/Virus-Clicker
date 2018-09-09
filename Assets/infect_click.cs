@@ -12,6 +12,7 @@ public class infect_click : MonoBehaviour {
     private Button infect_button;
 
     public game game_script;
+    public Text income_label;
         
 	// Use this for initialization
 	void Start () {
@@ -38,6 +39,6 @@ public class infect_click : MonoBehaviour {
     }
 	// Update is called once per frame
 	void Update () {
-		
+        income_label.text = (income*10).ToString() ;
 	}
 }

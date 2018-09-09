@@ -579,8 +579,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -164, y: 596}
-  m_SizeDelta: {x: 287.9, y: 41.299988}
+  m_AnchoredPosition: {x: -155.6, y: 583.7}
+  m_SizeDelta: {x: 303.3, y: 63.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &198592238
 MonoBehaviour:
@@ -616,7 +616,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 08ff1c2d3bf27bd4ea5adda5b8f113b8, type: 3}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -844,6 +844,7 @@ MonoBehaviour:
   infected_prefab: {fileID: 1496505226674540, guid: 956f9c8f6cc53544d8b712759bde039e,
     type: 2}
   game_script: {fileID: 0}
+  income_label: {fileID: 1463365070}
 --- !u!114 &239710804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1051,7 +1052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6bbb62d0332b48970629566326b38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: e8030000000000001027000000000000400d030000000000c0c62d000000000000e40b5402000000
+  price: fa000000000000001027000000000000400d030000000000c0c62d000000000000e40b5402000000
   inc: 140000000000000014000000000000000a000000000000000a000000000000000500000000000000
   tag: bacteria
   price_label: {fileID: 1188713400}
@@ -1429,6 +1430,7 @@ MonoBehaviour:
   infected_prefab: {fileID: 1496505226674540, guid: 956f9c8f6cc53544d8b712759bde039e,
     type: 2}
   game_script: {fileID: 0}
+  income_label: {fileID: 268031707}
 --- !u!114 &469535735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1815,8 +1817,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -164, y: 596}
-  m_SizeDelta: {x: 287.9, y: 41.299988}
+  m_AnchoredPosition: {x: -155.6, y: 583.7}
+  m_SizeDelta: {x: 303.3, y: 63.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &565591977
 MonoBehaviour:
@@ -1852,7 +1854,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 08ff1c2d3bf27bd4ea5adda5b8f113b8, type: 3}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -2287,6 +2289,7 @@ MonoBehaviour:
   infected_prefab: {fileID: 1496505226674540, guid: 956f9c8f6cc53544d8b712759bde039e,
     type: 2}
   game_script: {fileID: 0}
+  income_label: {fileID: 1849556422}
 --- !u!114 &778642553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3258,8 +3261,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -164, y: 596}
-  m_SizeDelta: {x: 287.9, y: 41.299988}
+  m_AnchoredPosition: {x: -155.6, y: 583.7}
+  m_SizeDelta: {x: 303.3, y: 63.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1090699138
 MonoBehaviour:
@@ -3282,7 +3285,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 08ff1c2d3bf27bd4ea5adda5b8f113b8, type: 3}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -4138,6 +4141,7 @@ MonoBehaviour:
   infected_prefab: {fileID: 1496505226674540, guid: 956f9c8f6cc53544d8b712759bde039e,
     type: 2}
   game_script: {fileID: 0}
+  income_label: {fileID: 875317832}
 --- !u!114 &1362471271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4608,6 +4612,7 @@ MonoBehaviour:
   infected_prefab: {fileID: 1496505226674540, guid: 956f9c8f6cc53544d8b712759bde039e,
     type: 2}
   game_script: {fileID: 0}
+  income_label: {fileID: 234555940}
 --- !u!114 &1530801901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5443,6 +5448,7 @@ MonoBehaviour:
   infected_prefab: {fileID: 1496505226674540, guid: 956f9c8f6cc53544d8b712759bde039e,
     type: 2}
   game_script: {fileID: 0}
+  income_label: {fileID: 1049295030}
 --- !u!114 &1844562086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5736,6 +5742,7 @@ MonoBehaviour:
   infected_prefab: {fileID: 1496505226674540, guid: 956f9c8f6cc53544d8b712759bde039e,
     type: 2}
   game_script: {fileID: 0}
+  income_label: {fileID: 1836563610}
 --- !u!1 &1849556420
 GameObject:
   m_ObjectHideFlags: 0
