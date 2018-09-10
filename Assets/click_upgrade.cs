@@ -25,7 +25,7 @@ public class click_upgrade : MonoBehaviour {
         cur_price = price[0];
         i = 0;
         price_label.text = cur_price.ToString();
-        inc_label.text = (cur_inc *100).ToString();
+        inc_label.text = ((cur_inc-1) *100).ToString();
         i_label.text = "0";
 	}
 
@@ -41,7 +41,7 @@ public class click_upgrade : MonoBehaviour {
                 cur_inc = inc[i];
                 cur_price = price[i];
                 price_label.text = cur_price.ToString();
-                inc_label.text = (cur_inc * 100).ToString();
+                inc_label.text = ((cur_inc - 1) * 100).ToString();
                 i_label.text = i.ToString();
 
             }
@@ -49,7 +49,7 @@ public class click_upgrade : MonoBehaviour {
             {
                 cur_price = cur_price * 2;
                 price_label.text = cur_price.ToString();
-                inc_label.text = (cur_inc * 100).ToString();
+                inc_label.text = ((cur_inc - 1) * 100).ToString();
                 i_label.text = i.ToString();
             }
 
