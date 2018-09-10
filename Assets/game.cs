@@ -38,12 +38,14 @@ public class game : MonoBehaviour {
     {
         infect_panel.SetActive(true);
         main_panel.SetActive(false);
+        evolve_panel.SetActive(false);
     }
     void evolve_clicked()
     {
         evolve_panel.SetActive(true);
         main_panel.SetActive(false);
-        
+        infect_panel.SetActive(false);
+
     }
     // Update is called once per frame
     void Update () {
